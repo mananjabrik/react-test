@@ -1,0 +1,9 @@
+.navbar{
+    background-color: black;
+    padding: 20px;
+}
+    .navbar-logo{
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
