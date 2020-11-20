@@ -8,7 +8,7 @@
         display: flex;
     }
     .navbar-logo{
-        flex-direction: row-reverse;
+        width: 100%;
         color: white;
         text-decoration: none;
         text-transform: uppercase;
@@ -17,16 +17,18 @@
         display: none;
     }
     ul.nav-menu{
-        display: flex;
+        width: 100%;
         margin-block-start: 0;
         margin-block-end: 0;
     }
-    .nav-item{
+    li.nav-item{
+        display: inline-block;
         margin: 0 10px 0 10px;
         list-style: none;
     }
-    .nav-link{
+    a.nav-link{
         text-decoration: none;
         color: white;
         text-transform: uppercase;
     }
+/*---------------------------------- responsive strategi */
