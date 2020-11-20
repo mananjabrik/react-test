@@ -1,9 +1,16 @@
 .navbar{
+    width: 100%;
     background-color: black;
-    padding: 20px;
+    color: white;
 }
-    .navbar-logo{
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
+.navbar-container{
+    padding : 10px 50px 10px 50px ;
+    display: flex;
+}
+ul{
+    display: flex;
+}
+    li{
+        padding : 0 10px 0 10px;
+        list-style: none;
     }
