@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import imageSlider from './components/ImageSlider';
+import ImageSlider from './components/ImageSlider';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 
@@ -13,7 +13,7 @@ function App() {
         <Route path='/' exact />
       </Switch>
     </Router>
-    <imageSlider />
+    <ImageSlider />
       
   </>
   );
